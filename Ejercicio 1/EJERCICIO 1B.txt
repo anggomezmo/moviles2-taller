@@ -1,0 +1,11 @@
+INSERT INTO Contactos(nombre,telefono,email,direccion,fecha_nacimiento)
+VALUES('John Doe','1234567890','john.doe@example.com','123 Main Street','1990-05-15'),
+('Jane Smith','9876543210','jane.smith@example.com','456 Elm Street','1985-09-20'),
+('Bob Jhonson','5551234567','bob.jhonson@example.com','789 Oak Street','1978-12-01'),
+('Alice Williams','3216549870','alice.williams@example.com','101 Maple Street','1992-07-11'),
+('Michael Brown','6543217890','michael.brown@example.com','202 Pine Street','1988-03-25')
+
+SELECT * FROM Contactos WHERE nombre = 'John Doe';
+SELECT * FROM Contactos WHERE telefono like '123%';
+SELECT * FROM Contactos ORDER by fecha_nacimiento ASC;
+
